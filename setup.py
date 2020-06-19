@@ -19,7 +19,7 @@ setup(
     setup_requires=['pytest-runner', 'flake8'],
     tests_require=['pytest'],
     entry_points={
-        'console_scripts': ['cti_injection=ucminjection.cti_injection:main']
+        'console_scripts': ['myscript=ucminjection.cti_injection:main']
 
     },
     package_data={'ucminjection': ['data/schema.json']}
